@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.display-flex {
+  display: flex;
+
+}
+
+.navbar {
+  
+  justify-content: space-around;
+  /* max-width:1200px ; */
+  margin: 0 auto;
+  padding: 25px 0;
+  background-color: #1A0B2E;
+  align-items: center;
+}
+
+.brand span {
+  color: white;
+}
+
+.gradient-text {
+  background: linear-gradient(to bottom, #F7E93F, #FB09B4, #9100F8);
+  color: transparent;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-link {
+  list-style: none;
+  gap:32px ;
+  color:#FFFFFF ;
+  font-weight:medium;
+}
+
+.btn {
+  color: #FFFFFF;
+  background: linear-gradient(to top right, #F7E93F, #FB09B4, #9100F8);
+  border-radius:10000px;
+  width: 135px;
+  height: 45px;
+  border: none;
+  
+}
